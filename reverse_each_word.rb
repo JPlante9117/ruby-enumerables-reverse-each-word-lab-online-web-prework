@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
   sentence = "Oh goodness look at the time"
   sentence_array= sentence.split(" ")
   
-  p sentence_array
+  sentence_array.each.reverse
   
 end
 
