@@ -6,6 +6,6 @@ def reverse_each_word(string)
   
   final_string = reversed_array.join(' ')
   
-  puts final_string
+  final_string
   
 end
