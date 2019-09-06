@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
   
   sentence_array = sentence.split(" ")
   
-  p sentence_array.each.reverse!
+  p reverse!sentence_array.each
   
   sentence_array.join(' ')
   
