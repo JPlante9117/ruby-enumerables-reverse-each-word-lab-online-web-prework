@@ -6,4 +6,4 @@ def reverse_each_word(sentence)
   
 end
 
-reverse_each_word
+reverse_each_word("Oh goodness look at the time")
