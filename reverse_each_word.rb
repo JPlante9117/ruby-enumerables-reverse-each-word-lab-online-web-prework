@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   
   p sentence_array.each
   
-  sentence_array.reverse
+  sentence_array.reverse!
   
   sentence_array.join(' ')
   
