@@ -2,11 +2,11 @@ def reverse_each_word(sentence)
   
   sentence_array = sentence.split(" ")
   
-  sentence_array.each{|string| string.reverse!}
+  reversed_array = sentence_array.each{|string| string.reverse!}
   
-  sentence_array.join(' ')
+  final_string = reversed_array.join(' ')
   
-  p sentence_array
+  p final_string
   
 end
 
